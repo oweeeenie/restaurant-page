@@ -34,6 +34,21 @@ img {
   height: auto;
 }
 
+:root {
+  --primary-color: #5a5a5a;
+  --secondary-color: #0f0f0f;
+  --primary-font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
 body {
   background-image: url(./images/background.jpg);
   background-size: cover;
@@ -41,4 +56,34 @@ body {
   background-repeat: no-repeat;
   min-height: 90.1vh;
   z-index: -10;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.nav-container {
+  display: flex;
+  gap: 10rem;
+  padding-right: 10rem;
+}
+
+.tabs {
+  border: none;
+  background-color: transparent;
+  font-size: var(--primary-font-size);
+  color: gray;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: var(--secondary-color);
+  padding-left: 10rem;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
