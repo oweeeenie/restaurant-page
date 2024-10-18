@@ -121,3 +121,10 @@ body {
   position: relative;
   right: 13.5rem;
 }
+
+/* ABOUT US TAB CSS --------------------------------------------- */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

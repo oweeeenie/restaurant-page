@@ -1,5 +1,6 @@
 import './styles.css';
 import { loadAboutTab } from './about';
+import { loadMenuTab } from './menu';
 
 const content = document.querySelector('#content'); // holds EVERYTHING
 
@@ -39,7 +40,13 @@ function clearContent() {
 }
 
 const aboutButton = document.querySelector('.tabs:nth-child(2)');
-aboutButton.addEventListener('click', loadAboutTab);
+aboutButton.addEventListener('click', () => {
+  clearContent();
+  loadAboutTab();
+});
 
 const menuButton = document.querySelector('.tabs:nth-child(3)');
-menuButton.addEventListener('click', loadMenuTab);
+menuButton.addEventListener('click', () => {
+  clearContent();
+  loadMenuTab();
+});
