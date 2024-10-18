@@ -1,4 +1,5 @@
 import './styles.css';
+import { loadAboutTab } from './about';
 
 const content = document.querySelector('#content'); // holds EVERYTHING
 
@@ -30,3 +31,15 @@ const quoteButton = document.createElement('button');
 quoteButton.className = 'quote-button';
 quoteButton.textContent = 'Book A Table';
 quoteContainer.appendChild(quoteButton);
+
+// START OF OTHER TABS ------------------------------------
+
+function clearContent() {
+  content.innerHTML = '';
+}
+
+const aboutButton = document.querySelector('.tabs:nth-child(2)');
+aboutButton.addEventListener('click', loadAboutTab);
+
+const menuButton = document.querySelector('.tabs:nth-child(3)');
+menuButton.addEventListener('click', loadMenuTab);
