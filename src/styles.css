@@ -241,6 +241,7 @@ footer {
   position: absolute;
   top: 14rem;
   border-top: transparent;
+  padding: 1rem;
 }
 
 .clipped-container-entrees {
@@ -252,6 +253,7 @@ footer {
   top: 14rem;
   left: 7rem;
   border-top: transparent;
+  padding: 1rem;
 }
 
 .clipped-container-deserts {
@@ -262,6 +264,7 @@ footer {
   position: absolute;
   top: 14rem;
   right: 67rem;
+  padding: 1rem;
 }
 
 .clipped-deserts,
@@ -288,4 +291,49 @@ footer {
     0 100%,
     0 40px
   );
+}
+
+.clipped-container-entrees > h2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.clipped-container-entrees > p {
+  color: var(--primary-color);
+  font-family: cursive;
+  font-size: 1.2rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.clipped-container-drinks > h2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.clipped-container-drinks > p {
+  color: var(--primary-color);
+  font-family: cursive;
+  font-size: 1.2rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.clipped-container-deserts > h2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.clipped-container-deserts > p {
+  color: var(--primary-color);
+  font-family: cursive;
+  font-size: 1.2rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
