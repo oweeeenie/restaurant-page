@@ -59,6 +59,15 @@ body {
   z-index: -10;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--primary-color);
+  text-align: center;
+  width: 100%;
+  color: var(--secondary-color);
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -94,7 +103,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin-right: 25rem;
-  margin-top: 17rem;
+  margin-top: 7rem;
 }
 
 .quote {
@@ -127,4 +136,90 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 25rem;
+  margin-top: 7rem;
+}
+
+.about-title {
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 5rem;
+  font-family: cursive;
+}
+
+.about-description {
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  border: 2px solid var(--secondary-color);
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  width: 60rem;
+  min-height: 10rem;
+}
+
+.about-number-one-title {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+  font-family: cursive;
+  color: var(--primary-color);
+  margin-top: 1.5rem;
+}
+
+.about-number-one {
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  border: 2px solid var(--secondary-color);
+  font-size: 3rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  min-height: 4rem;
+}
+
+.about-number-two-title {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+  font-family: cursive;
+  color: var(--primary-color);
+  margin-top: 1.5rem;
+}
+
+.about-number-two {
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  border: 2px solid var(--secondary-color);
+  font-size: 3rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  min-height: 4rem;
+}
+
+.about-number-three-title {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+  font-family: cursive;
+  color: var(--primary-color);
+  margin-top: 1.5rem;
+}
+
+.about-number-three {
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  border: 2px solid var(--secondary-color);
+  font-size: 3rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  min-height: 4rem;
 }

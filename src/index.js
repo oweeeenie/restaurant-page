@@ -33,6 +33,10 @@ quoteButton.className = 'quote-button';
 quoteButton.textContent = 'Book A Table';
 quoteContainer.appendChild(quoteButton);
 
+const footer = document.createElement('footer');
+footer.textContent = '© 2024 Owen’s Scrumptious Bar';
+document.body.appendChild(footer);
+
 // START OF OTHER TABS ------------------------------------
 
 function clearContent() {
