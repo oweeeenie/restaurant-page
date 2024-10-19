@@ -223,3 +223,69 @@ footer {
   margin-top: 1.5rem;
   min-height: 4rem;
 }
+
+/* START OF MENU TAB */
+.menu-container {
+  width: 90rem;
+  margin: 5rem;
+  height: 64rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clipped-container-drinks {
+  border: 2px solid var(--primary-color);
+  width: 20rem;
+  height: 60rem;
+  margin: 3rem;
+  position: absolute;
+  top: 14rem;
+  border-top: transparent;
+}
+
+.clipped-container-entrees {
+  border: 2px solid var(--primary-color);
+  margin: 3rem;
+  width: 20rem;
+  height: 60rem;
+  position: absolute;
+  top: 14rem;
+  left: 7rem;
+  border-top: transparent;
+}
+
+.clipped-container-deserts {
+  border: 2px solid var(--primary-color);
+  width: 20rem;
+  height: 60rem;
+  margin: 3rem;
+  position: absolute;
+  top: 14rem;
+  right: 67rem;
+}
+
+.clipped-deserts,
+.clipped-entree,
+.clipped-drinks {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: cursive;
+  width: 20rem;
+  margin: 3rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(
+    40px 0,
+    calc(100% - 40px) 0,
+    100% 40px,
+    100% 100%,
+    calc(100% - 40px) 100%,
+    40px 100%,
+    0 100%,
+    0 40px
+  );
+}

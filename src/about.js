@@ -14,10 +14,6 @@ export function loadAboutTab() {
   aboutTitle.textContent = 'About Us';
   aboutContent.appendChild(aboutTitle);
 
-  /* const aboutDescriptionContainer = document.createElement('div');
-  aboutDescriptionContainer.className = 'about-description-container';
-  aboutContent.appendChild(aboutDescriptionContainer); */
-
   const aboutDescription = document.createElement('p');
   aboutDescription.className = 'about-description';
   aboutDescription.textContent =
