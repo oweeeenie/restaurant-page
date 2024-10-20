@@ -51,6 +51,16 @@ export function loadMenuTab() {
         name: 'Pasta',
         description: 'Freshly made pasta in a rich marinara sauce.',
       },
+      {
+        name: 'Shrimp',
+        description:
+          'Straight out of the fryer shrimp, with lemmon pepper seasoning.',
+      },
+      {
+        name: 'Arroz Con Pollo',
+        description:
+          'Your choice of meat (Chicken or Steak) drenched in queso cheese with peas and rice.',
+      },
     ],
     drinks: [
       {
@@ -61,6 +71,21 @@ export function loadMenuTab() {
         name: 'Water',
         description: 'Our purified water only as fresh as they come.',
       },
+      {
+        name: 'Coca Cola',
+        description:
+          'Almost as perfect as a mcdonalds coke, but still perfectly fresh.',
+      },
+      {
+        name: 'Mtn Dew',
+        description:
+          'The best green soda in the town, fresh out the freezer with a slushy like texture.',
+      },
+      {
+        name: 'Your Alcohol Choice',
+        description:
+          'We carry almost all major alcoholic/beer brands. Ask us if we have your favorite and we will provide for you!',
+      },
     ],
     deserts: [
       {
@@ -70,6 +95,21 @@ export function loadMenuTab() {
       {
         name: 'Brownies',
         description: 'Baked straight out of the oven and soft.',
+      },
+      {
+        name: 'Chocolate Cake',
+        description:
+          'A creamy, but soft, delicious chocolatey cake with chocolate frosting.',
+      },
+      {
+        name: 'Banana Bread',
+        description:
+          'Non-crunchy banana bread. Soft all around with non-cruncy banana chunks inside. Tastes just like your middle schools banana bread.',
+      },
+      {
+        name: 'Cookies',
+        description:
+          'A batch of 4 (or more of your choice) fresh chocolate chip cookies.',
       },
     ],
   };

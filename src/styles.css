@@ -306,6 +306,7 @@ footer {
   font-family: cursive;
   font-size: 1.2rem;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
 }
 
 .clipped-container-drinks > h2 {
@@ -321,6 +322,7 @@ footer {
   font-family: cursive;
   font-size: 1.2rem;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
 }
 
 .clipped-container-deserts > h2 {
@@ -336,4 +338,5 @@ footer {
   font-family: cursive;
   font-size: 1.2rem;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
 }
